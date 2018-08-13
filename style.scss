@@ -1,0 +1,363 @@
+@import 'https://fonts.googleapis.com/css?family=Josefin+Sans:400,700';
+$font-family-text: 'Josefin Sans', sans-serif;
+
+@font-face {
+	font-family: 'Josefin Sans', sans-serif;
+	src: url(fonts/josefin-sans_[allfont.ru].ttf);
+}
+
+@font-face {
+	font-family: 'Josefin Sans';
+	src: url(fonts/josefin-sans-bold_[allfont.ru].ttf);
+	font-weight: bold;
+	
+}
+
+
+body {
+	margin: 0 auto;
+}
+
+section {
+	width: 100%;
+	margin: 0;	
+}
+.ba-section--header {
+	text-align: center;
+	display: block;	
+	margin: auto;
+	background-size: cover;
+	background-image: url("img/header.png");
+	background-repeat: no-repeat;
+	width: 100%;
+	position: relative;	
+	min-height: 100vh;	
+}
+
+.ba-container {
+	display: block;
+	width: 1110px;
+	height: 100%;
+	margin: auto;
+	// border: 1px solid #ffffff;
+	text-align: center;
+	position: relative;
+
+}
+
+.box-header {
+	
+	min-height: 100vh;
+	margin: 0 auto;
+	position: relative;	
+}
+
+.title {
+	font-family: $font-family-text;
+	color: #ffffff;
+    font-size: 48px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 800;
+    line-height: 26px;/* Приближение из-за подстановки шрифтов */
+    position: absolute;
+    text-transform: uppercase;
+    margin: 0; 
+    top: 265px;
+    left: 400px;
+    letter-spacing: 2px;
+
+    &__description {
+        font-family: $font-family-text;
+        color: #ffffff;
+        font-size: 22px;/* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        line-height: 15px;/* Приближение из-за подстановки шрифтов */
+        position: absolute;
+        top: 300px;
+        left: 400px;
+        letter-spacing: 5px;	
+}
+
+}
+
+.search {
+	position: relative;
+	background-color: #ffffff;
+	width: 650px;
+	height: 60px;
+	display: flex;
+	top: 390px;
+	left: 230px;
+
+
+	&__input {
+		background-color: #ffffff;
+		width: 500px;
+		height: 60px;
+		box-sizing: border-box;
+		padding: 0;
+		margin: 0;
+		border: none;
+		text-align: center;
+
+
+	}
+
+	&__btn {
+		border: none;
+		background-color: #5474fd;
+		width: 146px;
+		height: 56px;
+		border: 2px solid #ffffff;
+		display: flex;
+		justify-content: center;
+		margin-top: 2px;
+		margin-left: 3px;
+		color: #ffffff;
+		font-family: $font-family-text;
+        font-size: 14px;/* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        line-height: 56px;/* Приближение из-за подстановки шрифтов */
+        text-transform: uppercase;
+
+}
+&__icon {
+	display: block;
+	margin-left: 10px;
+	margin-top: 6px;
+	padding: 0;
+	width: 10px;
+	height: 10px;
+
+}
+
+}
+
+.text-scroll {
+	position: absolute;
+	font-family: $font-family-text;
+	color: #ffffff;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 26px;/* Приближение из-за подстановки шрифтов */
+    letter-spacing: 2px;
+    left: 510px;
+    top: 570px;
+}
+
+.icon-scroll {
+	position: absolute;
+	display: block;
+	width: 15px;
+	height: 8px;
+	top: 605px;
+	left: 543px;
+	
+}
+
+.ba-nav {
+	display: block;
+	position: relative;
+	background-color: #5474fd;
+	width: 100%;
+	height: 80px;		
+}
+
+.nav-logo {
+	position: absolute;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: $font-family-text;
+	font-size: 24px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+    line-height: 80px;/* Приближение из-за подстановки шрифтов */
+    letter-spacing: 2px;
+    left: 0;
+    display: block;
+
+
+}
+
+.nav-menu {
+	position: absolute;
+	float: right;
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+	top: 30px;
+	right: 0;
+	
+	
+}
+
+.nav-menu__item {
+	display: inline-block;
+	
+}
+
+.nav-menu:last-child {
+	margin-right: -40px;
+}
+
+.nav-item__word {
+	text-decoration: none;
+	color:  #ffffff;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 26px;/* Приближение из-за подстановки шрифтов */
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 40px;
+    border: 1px solid transparent;
+    padding: 2px;
+}
+
+.nav-item__word:hover {
+	border-bottom: 1px solid #ffffff; 
+	padding: 2px;  
+}
+
+.ba-section--advantages {
+	background-image: url("img/advantages.png");
+	background-repeat: no-repeat;
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 685px;
+	background-size: cover;
+}
+
+.box-info {
+	text-align: left;	
+	width: 541px;
+
+
+	&__title {
+		font-family: $font-family-text;
+		color: #ffffff;
+    font-size: 36px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 26px;/* Приближение из-за подстановки шрифтов */
+    position: absolute;
+    margin: 0; 
+    top: 203px;
+    letter-spacing: 2px;
+    
+
+}
+
+&__content {
+	font-family: $font-family-text;
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	position: absolute;
+	margin: 0;
+	letter-spacing: 2px;
+	top: 298px;
+	display: block;
+	width: 541px;
+}
+
+&__button {
+	color: #ffffff;
+	background-color: #5474fd;
+	width: 225px;
+	height: 60px;
+	text-transform: uppercase;
+	border: none;
+	letter-spacing: 2px;
+	top: 490px;
+	position: absolute;
+	
+}
+
+&__button:hover {
+	background-color: #437223;
+	
+}
+
+&__picture {
+	position: absolute;
+	display: block;
+	top: 119px;
+	right: 124px;	
+}
+
+&__picture--right {
+	top: 343px;
+	right: 0;
+	
+}
+}
+
+
+.ba-section--work {
+	background-color: #333333;
+	width: 100%;
+	height: 337px;
+	background-size: cover;
+	
+}
+
+.box-icon {
+	width: 980px;
+	height: 330px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 65px;
+
+	&__column {
+		display: flex;
+		flex-direction: column;
+		width: 250px;
+		height: 160px;
+		font-family: $font-family-text;
+		color: #ffffff;
+		font-weight: 400;
+	    font-size: 36px;/* Приближение из-за подстановки шрифтов */
+	    line-height: 26px;/* Приближение из-за подстановки шрифтов */
+	    margin-top: 100px;
+	
+	
+}
+
+&__icon {
+	width: 60px;
+	height: 60px;
+	margin-left: 90px;
+	
+}
+
+&__text {
+	font-family: $font-family-text;
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 36px;/* Приближение из-за подстановки шрифтов */
+	line-height: 26px;/* Приближение из-за подстановки шрифтов */	
+	
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
