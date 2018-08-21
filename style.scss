@@ -342,6 +342,225 @@ section {
 
 
 
+.ba-section--spain {
+	background-image: url("img/spain.png");
+	background-repeat: no-repeat;
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+	
+}
+
+.box-content {
+	width: 540px;
+	height: 370px;
+	display: block;
+	position: absolute;
+	text-align: left;
+	color: #ffffff;	
+	font-family: $font-family-text;
+	
+}
+
+.box-content__square {
+	opacity: 0.8;
+	background-color: #131313;
+	position: absolute;
+	margin-top: 230px;
+	
+	
+	
+	
+	
+	
+}
+
+.box-content__coyntry {
+	font-weight: 400;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	line-height: 26px;/* Приближение из-за подстановки шрифтов */
+	letter-spacing: 2px;
+	margin-top: 278px;	
+	left: 30px;
+}
+
+.box-content__title {
+	font-weight: 400;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	line-height: 26px;/* Приближение из-за подстановки шрифтов */
+	margin-top: 327px;	
+	left: 30px;
+	text-transform: uppercase;
+	
+}
+
+.box-content__text {
+	margin-top: 370px;
+	left: 30px;
+	width: 490px;
+	height: 73px;
+	font-weight: 400;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	line-height: 26px;/* Приближение из-за подстановки шрифтов */	
+}
+
+.box-content__button {
+	width: 225px;
+	height: 60px;
+	background-color: #496bfe;
+	position: absolute;
+	left: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border: none;
+	top: 490px;	
+}
+
+.ba-section--spain2 {
+	background-image: url("img/spain img.png");
+	background-repeat: no-repeat;
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+	
+}
+
+.box-content--right {
+	color: #ffffff;
+	right: 0;
+}
+
+
+.ba-section--testimonial {
+	background-image: url("img/testimonial.png");
+	background-repeat: no-repeat;
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 730px;
+	background-size: cover;
+	
+}
+
+.box-quote__title {
+	font-family: $font-family-text;
+	color: #ffffff;
+    font-size: 36px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 26px;/* Приближение из-за подстановки шрифтов */
+    position: absolute;
+    margin: 0; 
+    top: 115px;
+	display: block;
+	width: 1110px;
+    letter-spacing: 2px;
+}
+
+
+.box-quote {
+	display: flex;
+	width: 1110px;
+	height: 280px;
+	top: 245px;
+	position: absolute;
+	
+}
+
+.box-quote__image {
+	background: url("img/testimonial-small.png");
+	display: flex;
+	width: 444px;
+	height: 280px;
+	
+}
+
+.box-quote__content {
+	display: flex;
+	width: 666px;
+	height: 280px;
+	flex-direction: column;
+	text-align: left;
+	font-family: $font-family-text;
+	color: #ffffff;
+	padding-left: 60px;
+	background-color: #333333;
+	
+}
+
+.box-quote__autor {
+	text-transform: uppercase;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;	
+}
+
+.box-quote__text {
+	font-weight: 400;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	line-height: 26px;/* Приближение из-за подстановки шрифтов */
+	width: 575px;
+}
+
+.blockquote {
+background: #333333;
+margin-left: 0;
+font-size: 16px;
+quotes: "\201C""\201D""\2018""\2019";
+}
+.blockquote:before {
+color: #5474fd;
+content: open-quote;
+font-size: 6em;
+line-height: 0.1em;
+margin-right: 5px;
+vertical-align: -0.4em;
+}
+.blockquote p {
+display: inline;
+}
+
+
+.ba-section--footer {
+	background-color: #232323;
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 270px;
+	text-align: center;
+	
+}
+
+.box-social {
+	position: absolute;
+
+	
+	
+}
+
+.title--footer {
+	font-size: 24px;
+	top: 115px;	
+	letter-spacing: 4px;
+	display: block;
+	width: 1110px;
+	left: 0;
+	text-align: center;
+	position: absolute;
+}
+
+.title__description--footer {
+	font-size: 16px;
+	top: 135px;
+	letter-spacing: 1px;
+	display: block;
+	width: 1110px;
+	left: -3px;	
+	position: absolute;
+}
+
 
 
 
